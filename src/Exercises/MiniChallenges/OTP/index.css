@@ -1,0 +1,9 @@
+.remove-caret::-webkit-inner-spin-button,
+.remove-caret::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.remove-caret {
+    -moz-appearance: textfield;
+}
