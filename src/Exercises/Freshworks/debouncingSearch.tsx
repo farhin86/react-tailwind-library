@@ -19,7 +19,7 @@ export default function DebounceSearch() {
     }, 2000);
 
     return () => {
-      console.log("Clear");
+      console.log("Clear", searchedVal);
       return clearTimeout(searchedId);
     };
   }, [searchedVal]);

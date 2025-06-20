@@ -37,7 +37,6 @@ export default function FormValidation({ onSubmit }: FormValidationPRops) {
         onSubmit();
       }, 3000);
     }
-    // console.log("submit", form);
   }
   function validateField(name: string, val: string) {
     let error = "";

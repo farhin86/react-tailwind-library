@@ -1,0 +1,5 @@
+.toast-section {
+    transition-timing-function: ease-in;
+  transition: 0.2s;
+  transform: translateY(20%);
+}
